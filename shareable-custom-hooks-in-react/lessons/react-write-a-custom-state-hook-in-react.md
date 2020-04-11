@@ -5,7 +5,7 @@
 
 ---
 
-Instructor: [0:00] Starting where we left off in the previous video in feedback.effect.js, we're going to copy everything, create a new file called feedback.custom.js and paste that in. **To write our first custom State Hook, all we're going to do is be refactoring this part of our code (the set state call).**
+Instructor: [0:00] Starting where we left off in the previous video in `feedback.effect.js`, we're going to copy everything, create a new file called feedback.custom.js and paste that in. **To write our first custom State Hook, all we're going to do is be refactoring this part of our code (the set state call).**
 
 [0:19] Remember, we're using one piece of state right now called text, and we have a function called setText which allows us to update that value. Up near our import statements, **we're going to add a function called useText. We're calling our custom state hook useText because we're following the pattern presented by React.**
 
